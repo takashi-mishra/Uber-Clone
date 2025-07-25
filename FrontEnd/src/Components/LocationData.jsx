@@ -3,6 +3,7 @@ import axios from 'axios';
 import { FaLocationDot } from "react-icons/fa6";
 import '../styles/userHome.css';
 import { socket } from '../socket';
+
 import WaitingforDriver from './WaitingforDriver';
 
 const LocationData = ({ location, destination, activeField, onSuggestionSelect, showVehicles, Fare, userdata }) => {

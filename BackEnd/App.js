@@ -18,7 +18,7 @@ connectToDatabase(); // Connect to the database
 
 const cors = require('cors'); // Import CORS middleware
 app.use(cors({
-    origin: 'http://localhost:5173',  // ✅ Use your frontend URL
+  origin: ["http://localhost:5173", "https://uber-clone-1-frontend.onrender.com"],
   credentials: true
 }));
 
