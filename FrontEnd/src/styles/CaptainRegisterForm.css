@@ -1,0 +1,82 @@
+@media (max-width: 480px) {
+  .captain-form-wrapper {
+    overflow-y: auto;
+    padding: 16px;
+    background: #fdfdfd;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+  }
+
+  .captain-form-wrapper h2 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #333;
+  }
+
+  .captain-form-wrapper label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 4px;
+    color: #444;
+  }
+
+  .captain-form-wrapper input,
+  .captain-form-wrapper select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+  }
+
+  .captain-form-wrapper button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .captain-form-wrapper button:hover {
+    background-color: #0056b3;
+  }
+
+  .captain-form-wrapper p {
+    font-size: 12px;
+    color: red;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+
+  .captain-form-wrapper hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 16px 0;
+  }
+
+  .captain-form-wrapper h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #222;
+  }
+
+.caption-Login-link{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 8px;
+    color: #555;
+  }
+}
+
+

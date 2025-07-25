@@ -1,0 +1,244 @@
+#caption-home-page{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;  
+    position: relative;
+}
+
+#logo-2{
+    width: 100%;
+    height: 10%;
+    position: absolute;
+    top: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.Driver-working{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(230, 236, 247);
+    position: absolute;
+    bottom: 0;
+}
+
+.driver-info{
+    width: 98%;
+    height: auto;
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.driver-pic-and-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.driver-pic-and-name img{
+    width: 14vw;
+    height:  7vh;
+    border-radius: 50%;
+}
+
+#other-detail{
+    display: flex;
+    width: 98%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 14px;
+    background-color:rgba(181, 186, 197, 0.952);
+    border-radius: 10px;
+    height: 16vh;
+    
+}
+
+/* ridepopup page ka css code*/
+
+.ride-popup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40%;
+  background: white;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  z-index: 1000;
+  animation: slideUp 0.4s ease-out;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.text-ride-alert{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1vh;
+}
+.text-ride-alert span{
+  color: red;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.ride-header {
+  display: flex;
+  align-items: center;
+  background: #f7d559;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.user-image {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.distance {
+  font-weight: bold;
+}
+
+.ride-location {
+  margin: 2vh;
+  font-size: 14px;
+}
+.ride-location h3 {
+  margin: 2vh 0;
+}
+
+.ride-fare {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+    align-items: center;
+    padding: 10px 18px;
+}
+
+.ride-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.confirm {
+  flex: 1;
+  background-color: #2ecc71;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+}
+
+.ignore {
+  flex: 1;
+  background-color: #bdc3c7;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  color: black;
+}
+
+
+/*confirmRide component*/
+
+.ride-popup-confirm {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 45%;
+  background: white;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  z-index: 1000;
+  animation: slideUp 0.4s ease-out;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.ride-popup-confirm.active {
+ display: none;
+}
+
+.ride-actions-confirm{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ignore-confirm {
+  flex: 1;
+  background-color: #bdc3c7;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  color: black;
+   margin-bottom: 1vh;
+}
+
+.otpinput{
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  border: 2px solid black;
+  border-radius: 2px;
+  font-size: 2vh;
+}
+.try{
+  height: 50%;
+}
+
+/*caption riding page*/
+
+#caption-riding{
+  width: 100%;
+  height:20%;
+  background-color: yellow;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+}
+
+#caption-riding button{
+  background-color: #4CAF50;
+  height: 6vh;
+  width: 45%;
+  border: none;
+  border-radius: 20px;
+  color: white;
+}
