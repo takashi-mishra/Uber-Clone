@@ -110,5 +110,5 @@ Real-time Updates: All ride status changes (requested, confirmed, ongoing, compl
 👨‍💻 Developer
 Yogesh Kumar Mishra
 🌐 MERN Stack Developer | Designer | Passionate Creator
-📧 Email: your.email@example.com
-🔗 LinkedIn | GitHub
+📧 Email: yogeshmishra4822@gmail.com
+
