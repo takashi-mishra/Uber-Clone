@@ -32,9 +32,9 @@ useEffect(() => {
 
       // ✅ Choose correct API endpoint
       if (role === "user") {
-        apiUrl = "http://localhost:3000/users/profile";
+        apiUrl = `${import.meta.env.VITE_API_URL}/users/profile`;
       } else if (role === "caption") {
-        apiUrl = "http://localhost:3000/captions/profile";
+        apiUrl =`${import.meta.env.VITE_API_URL}/captions/profile`;
       }
 
       axios.get(apiUrl, {
